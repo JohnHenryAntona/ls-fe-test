@@ -13,7 +13,7 @@
         font-weight: var(--font-weight-normal);
         margin: 30px auto;
         display: block;
-        width: 70%;
+        width: 50%;
     }
 
     .card-container {
@@ -121,6 +121,10 @@
     @media only screen and (max-width: 767px) {
         #app {
             margin: 60px 30px;
+        }
+
+        p.description {
+            width: 100%;
         }
 
         .card-container {
