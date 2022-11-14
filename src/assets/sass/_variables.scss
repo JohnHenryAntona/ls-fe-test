@@ -1,0 +1,33 @@
+:root {
+    --font-size-h1: min(max(2.3rem, 2.4vw), 4.6rem);
+    --font-weight-h1: 700;
+    --font-size-h2: min(max(3.8rem, 8vw), 16rem);
+    --font-size-h2-stores: min(max(3.8rem, 5vw), 16rem);
+    --text-transform-h2: uppercase;
+    --font-weight-h3: 600;
+    --font-size-h4: 1.6rem;
+    --text-transform-h5: uppercase;
+    --font-weight-h5: 300;
+    --font-size-h6: 1.6rem;
+    --font-weight-h6: 700;
+    --font-size-p: 1.2rem;
+    --font-weight-p: normal;
+    --font-weight-bold: 500;
+    --font-weight-bold: 700;
+    --text-transform: uppercase;
+    --link-underline: 0.2rem;
+
+    --color-bg: #1c2026;
+    --color-bg-rgb: 28 32 38;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-header-description: #65757e;
+    --color-card-header-bg: #57665f;
+    --color-card-body-bg: #000000;
+    --color-card-description: #65757e;
+    --color-card-button-bg: #1c2026;
+    --color-bg-scrollbar: var(--color-bg);
+
+    --font-family-gotham: 'Gotham Bold', sans-serif;;
+    --font-family-proxima-nova: 'ProximaNova Regular', sans-serif;;
+}

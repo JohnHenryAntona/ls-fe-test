@@ -1,0 +1,28 @@
+#app {
+    a:not([class]),
+    a[class=''] {
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        margin-bottom: -0.5rem;
+        color: var(--color-black);
+
+        &:after {
+            content: '';
+            background-color: var(--color-black);
+            pointer-events: none;
+            position: absolute;
+            bottom: 0.1rem;
+            height: 0.1rem;
+            left: 0;
+            transition: left 0.4s cubic-bezier(1, 0, 0, 1), width 0.4s cubic-bezier(1, 0, 0, 1);
+            width: 100%;
+        }
+        &:hover:after {
+            @media (any-pointer: fine) {
+                left: 50%;
+                width: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+//  Gotham Bold -----------------
+@font-face {
+    font-family: var(--font-family-gotham);
+    src: url('assets/fonts/gotham/Gotham-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+//  ProximaNova Regular -----------------
+@font-face {
+    font-family: var(--font-family-proxima-nova);
+    src: url('assets/fonts/proxima-nova/ProximaNova-Regular.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
